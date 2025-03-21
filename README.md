@@ -118,11 +118,6 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 ![Screenshot 2025-03-14 091100](https://github.com/user-attachments/assets/dabfff3f-11c7-4e61-b5bc-5c8e4ddc1939)
 
 ## OUTPUT:
-# Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
-![Screenshot 2025-03-16 150434](https://github.com/user-attachments/assets/00a42e26-818c-4e70-a23c-cac21fbb6f34)
 # nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
